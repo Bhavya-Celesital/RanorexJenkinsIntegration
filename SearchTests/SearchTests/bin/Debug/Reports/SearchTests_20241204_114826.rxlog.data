@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="19.41s"
+		durationms="19408"
+		type="root"
+		rid="21346e7c5f4bf91b"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="04-12-2024 11:48:26"
+		timestampiso="2024-12-04T06:18:26"
+		endtime="04-12-2024 11:48:45"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="12.49s"
+			durationms="12485"
+			type="test-suite"
+			rid="221af5ac0b6c8a4"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="SearchTests"
+			headertext="SearchTests"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="12.41s"
+				durationms="12409"
+				type="test-case"
+				rid="99e0547b48562e1"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TypeAccented_"
+				testcontainerid="07c18bd1-db96-4313-af0e-845629822568"
+				headertext="TypeAccented_"
+				displayName="TypeAccented_"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="12.35s"
+					durationms="12346"
+					type="test-module"
+					rid="fedc42388eddbf5"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording4"
+					displayName="Recording4"
+					moduleid="e7664d90-eb84-40e9-a407-8b6b9f71542f"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.137"
+						timeRelativeToTestModuleStartTime="00:00.019"
+						timeWallClock="11:48:33"
+						time="00:00.137"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.233"
+						timeRelativeToTestModuleStartTime="00:00.114"
+						timeWallClock="11:48:33"
+						time="00:00.233"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="95"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.017"
+						timeRelativeToTestModuleStartTime="00:00.898"
+						timeWallClock="11:48:34"
+						time="00:01.017"
+						level="Info"
+						category="Invoke action">
+						<message>
+							(Optional Action)<br/>Invoking Close() on item 'TrialPeriodExpiring'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Trial Period Expiring']"
+							itempath="/form[@title='Trial Period Expiring']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Self"
+							id="259e6ef92f3f4da1af608972394474fb"
+							timeout="30000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="100"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.513"
+						timeRelativeToTestModuleStartTime="00:04.395"
+						timeWallClock="11:48:37"
+						time="00:04.513"
+						level="Info"
+						category="Invoke action">
+						<message>
+							Invoking Maximize() on item 'UltraEdit64Bit1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'UltraEdit 64-bi']"
+							itempath="/form[@title~'UltraEdit 64-bi']"
+							fullname="SearchTestsRepository.UltraEdit64Bit1.Self"
+							id="14d3eb5db5724d62a4c6aada384fa128"
+							timeout="30000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="105"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.901"
+						timeRelativeToTestModuleStartTime="00:04.782"
+						timeWallClock="11:48:38"
+						time="00:04.901"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="109"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.954"
+						timeRelativeToTestModuleStartTime="00:06.836"
+						timeWallClock="11:48:40"
+						time="00:06.954"
+						level="Info"
+						category="Invoke action">
+						<message>
+							Invoking Select() on item 'UltraEdit64Bit1.Home'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'UltraEdit 64-bi']//toolbar[@accessiblerole='ToolBar']//tabpage[@accessiblename='Home']"
+							itempath=".//toolbar[@accessiblerole='ToolBar']//tabpage[@accessiblename='Home']"
+							fullname="SearchTestsRepository.UltraEdit64Bit1.Home"
+							id="cb25d3f5e9bf41e39d6bf56b8932e654"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="112"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.349"
+						timeRelativeToTestModuleStartTime="00:08.230"
+						timeWallClock="11:48:41"
+						time="00:08.349"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FormEdit1UltraEdit64Bit1.Find' at 20;55.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Find']"
+							itempath="?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Find']"
+							fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit1.Find"
+							id="314578835708428698c6d942a05df49c"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="116"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.488"
+						timeRelativeToTestModuleStartTime="00:10.369"
+						timeWallClock="11:48:43"
+						time="00:10.488"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'FindAndReplace'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Find and Replace']"
+							itempath="/form[@title='Find and Replace']"
+							fullname="SearchTestsRepository.FindAndReplace.Self"
+							id="a98be5a3ef954eccaec9d724c1ba404c"
+							timeout="30000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="120"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.873"
+						timeRelativeToTestModuleStartTime="00:10.755"
+						timeWallClock="11:48:44"
+						time="00:10.873"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Self' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Find and Replace']"
+							itempath="/form[@title='Find and Replace']"
+							fullname="SearchTestsRepository.FindAndReplace.Self"
+							id="a98be5a3ef954eccaec9d724c1ba404c"
+							timeout="30000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="121"
+							loglvl="Success"
+							itemindex="6">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.020"
+						timeRelativeToTestModuleStartTime="00:10.901"
+						timeWallClock="11:48:44"
+						time="00:11.020"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Enabled='True') on item 'FindAndReplace.Find'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Find and Replace']/?/?/tabpagelist[@controlid='1205']/tabpage[@title='Find']"
+							itempath="?/?/tabpagelist[@controlid='1205']/tabpage[@title='Find']"
+							fullname="SearchTestsRepository.FindAndReplace.Find"
+							id="0e7d001b41674fe794d0ff6acb30a1ad"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="124"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.129"
+						timeRelativeToTestModuleStartTime="00:11.010"
+						timeWallClock="11:48:44"
+						time="00:11.129"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Enabled' of element for item 'SearchTestsRepository.FindAndReplace.Find' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Find and Replace']/?/?/tabpagelist[@controlid='1205']/tabpage[@title='Find']"
+							itempath="?/?/tabpagelist[@controlid='1205']/tabpage[@title='Find']"
+							fullname="SearchTestsRepository.FindAndReplace.Find"
+							id="0e7d001b41674fe794d0ff6acb30a1ad"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.cs"
+							codeline="125"
+							loglvl="Success"
+							itemindex="7">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.270"
+						timeRelativeToTestModuleStartTime="00:11.151"
+						timeWallClock="11:48:44"
+						time="00:11.270"
+						level="Info"
+						category="User">
+						<message>
+							Switched to Czech keyboard layout.
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.UserCode.cs"
+							codeline="39"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.756"
+						timeRelativeToTestModuleStartTime="00:11.638"
+						timeWallClock="11:48:45"
+						time="00:11.756"
+						level="Info"
+						category="User">
+						<message>
+							Clicked on the text field.
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.UserCode.cs"
+							codeline="55"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.372"
+						timeRelativeToTestModuleStartTime="00:12.253"
+						timeWallClock="11:48:45"
+						time="00:12.372"
+						level="Info"
+						category="User">
+						<message>
+							Entered Czech text: 'ěščřžýáíéúůďťňó'
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.UserCode.cs"
+							codeline="61"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.423"
+						timeRelativeToTestModuleStartTime="00:12.304"
+						timeWallClock="11:48:45"
+						time="00:12.423"
+						level="Success"
+						category="User">
+						<message>
+							Text entered successfully: 'ěščřžýáíéúůďťňó'
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording4.UserCode.cs"
+							codeline="67"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

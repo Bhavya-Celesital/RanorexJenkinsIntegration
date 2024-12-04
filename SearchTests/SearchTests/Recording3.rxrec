@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="62f81488-27d1-44e3-be21-0ccd72ef70d6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording3"
+	namespace="SearchTests">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="2eeee25c-7b0e-4a16-aa97-426455490ad6"
+	name="SearchTestsRepository"
+	relativepath="SearchTestsRepository.rxrep">
+		<codegen
+		classname="SearchTestsRepository"
+		namespace="SearchTests">
+		</codegen>
+		<rootfolder
+		id="69e2e14a-2afa-404b-99ea-16e1afd64364"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

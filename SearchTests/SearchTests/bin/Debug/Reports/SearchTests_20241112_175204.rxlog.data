@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.95s"
+		durationms="26947"
+		type="root"
+		rid="1ae211b41648ca1a"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="12-11-2024 17:52:04"
+		timestampiso="2024-11-12T12:22:04"
+		endtime="12-11-2024 17:52:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="25.38s"
+			durationms="25381"
+			type="test-suite"
+			rid="24340aa4e33af728"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="SearchTests"
+			headertext="SearchTests"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="25.35s"
+				durationms="25353"
+				type="test-case"
+				rid="718c68b90af17d"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="FInd/Replace_History"
+				testcontainerid="e9048a95-82a6-4885-9174-1b80a6026067"
+				headertext="FInd/Replace_History"
+				displayName="FInd/Replace_History"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="25.33s"
+					durationms="25330"
+					type="test-module"
+					rid="aa25fef62ddcac2"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="OpenHexFindAndReplaceDialog"
+					displayName="OpenHexFindAndReplaceDialog"
+					moduleid="051f8864-e3e0-48b4-9990-d0c771210cbd"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.054"
+						timeRelativeToTestModuleStartTime="00:00.012"
+						timeWallClock="17:52:08"
+						time="00:00.054"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 5s to exist. Associated repository item: 'TrialPeriodExpiring.Close'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							itempath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Close"
+							id="7ef438aef5294063883fdefb341a6ef1"
+							timeout="5000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.705"
+						timeRelativeToTestModuleStartTime="00:03.663"
+						timeWallClock="17:52:12"
+						time="00:03.705"
+						level="Info"
+						category="User">
+						<message>
+							Item 'Close' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="83"
+							loglvl="Info"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.749"
+						timeRelativeToTestModuleStartTime="00:03.707"
+						timeWallClock="17:52:12"
+						time="00:03.749"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'SearchTestsRepository.TrialPeriodExpiring'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							invertedPath="self::button[@name='Close']/parent::?/parent::?/parent::form[@name='Trial Period Expiring']/parent::*"
+							basePathToCachedFolder="/form[@title='Trial Period Expiring']"
+							invertedBasePath="self::form[@title='Trial Period Expiring']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title='Trial Period Expiring']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="0"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="83"
+							loglvl="Warn"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.792"
+						timeRelativeToTestModuleStartTime="00:03.749"
+						timeWallClock="17:52:12"
+						time="00:03.792"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TrialPeriodExpiring.Close' at 9;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							itempath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Close"
+							id="7ef438aef5294063883fdefb341a6ef1"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.044"
+						timeRelativeToTestModuleStartTime="00:04.002"
+						timeWallClock="17:52:12"
+						time="00:04.044"
+						level="Info"
+						category="User"
+						errimg="images_SearchTe_953280bc\SearchTe_953280bc_840651e7_trace.jpg"
+						errthumb="images_SearchTe_953280bc\SearchTe_953280bc_840651e7_trace_thumb.jpg">
+						<message>
+							Item 'Close' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="86"
+							loglvl="Info"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.074"
+						timeRelativeToTestModuleStartTime="00:04.032"
+						timeWallClock="17:52:12"
+						time="00:04.074"
+						level="Warn"
+						category="Repository"
+						errimg="images_SearchTe_953280bc\SearchTe_953280bc_b4870f3c_trace.jpg"
+						errthumb="images_SearchTe_953280bc\SearchTe_953280bc_b4870f3c_trace_thumb.jpg">
+						<message>
+							Failed to update the cached element for folder 'SearchTestsRepository.TrialPeriodExpiring'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							invertedPath="self::button[@name='Close']/parent::?/parent::?/parent::form[@name='Trial Period Expiring']/parent::*"
+							basePathToCachedFolder="/form[@title='Trial Period Expiring']"
+							invertedBasePath="self::form[@title='Trial Period Expiring']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title='Trial Period Expiring']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="0"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="86"
+							loglvl="Warn"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.640"
+						timeRelativeToTestModuleStartTime="00:04.598"
+						timeWallClock="17:52:13"
+						time="00:04.640"
+						level="Info"
+						category="Mouse"
+						errimg="images_SearchTe_953280bc\SearchTe_953280bc_3fc198ce_trace.jpg"
+						errthumb="images_SearchTe_953280bc\SearchTe_953280bc_3fc198ce_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'UltraEdit64Bit.ApplicationMenu' at 28;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='UltraEdit 64-bit']/?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+							itempath="?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+							fullname="SearchTestsRepository.UltraEdit64Bit.ApplicationMenu"
+							id="1205d9377cd8455ea158ea37ce0476e2"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.277"
+						timeRelativeToTestModuleStartTime="00:23.234"
+						timeWallClock="17:52:31"
+						time="00:23.277"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

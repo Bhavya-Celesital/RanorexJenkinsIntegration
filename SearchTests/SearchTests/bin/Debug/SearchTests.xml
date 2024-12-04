@@ -1,0 +1,1454 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SearchTests</name>
+    </assembly>
+    <members>
+        <member name="T:SearchTests.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.CloseAUT.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:SearchTests.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.FindTab">
+             <summary>
+            The FindTab recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.FindTab.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.FindTab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.FindTab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.FindTab.Text">
+            <summary>
+            Gets or sets the value of variable Text.
+            </summary>
+        </member>
+        <member name="M:SearchTests.FindTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.FindTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.FindTab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.FindTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.FindTabRegularExpression">
+             <summary>
+            The FindTabRegularExpression recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.FindTabRegularExpression.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.FindTabRegularExpression.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.FindTabRegularExpression.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.FindTabRegularExpression.text">
+            <summary>
+            Gets or sets the value of variable text.
+            </summary>
+        </member>
+        <member name="P:SearchTests.FindTabRegularExpression.AddedRegularExpression">
+            <summary>
+            Gets or sets the value of variable AddedRegularExpression.
+            </summary>
+        </member>
+        <member name="P:SearchTests.FindTabRegularExpression.AddedRegularExpression2">
+            <summary>
+            Gets or sets the value of variable AddedRegularExpression2.
+            </summary>
+        </member>
+        <member name="M:SearchTests.FindTabRegularExpression.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.FindTabRegularExpression.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.FindTabRegularExpression.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.FindTabRegularExpression.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.OpenHexFindAndReplaceDialog">
+             <summary>
+            The OpenHexFindAndReplaceDialog recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.OpenHexFindAndReplaceDialog.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.OpenHexFindAndReplaceDialog.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.OpenHexFindAndReplaceDialog.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SearchTests.OpenHexFindAndReplaceDialog.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.OpenHexFindAndReplaceDialog.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.OpenHexFindAndReplaceDialog.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.OpenHexFindAndReplaceDialog.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.Recording1.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.MatchCase">
+             <summary>
+            The MatchCase recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.MatchCase.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.MatchCase.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.MatchCase.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.MatchCase.Warning">
+            <summary>
+            Gets or sets the value of variable Warning.
+            </summary>
+        </member>
+        <member name="M:SearchTests.MatchCase.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.MatchCase.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.MatchCase.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.MatchCase.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.Recording2.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.Recording2.directory">
+            <summary>
+            Gets or sets the value of variable directory.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.Recording3.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.Recording4.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.Recording4.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.ReplaceTabRegualrExpression">
+             <summary>
+            The ReplaceTabRegualrExpression recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.ReplaceTabRegualrExpression.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ReplaceTabRegualrExpression.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.Text">
+            <summary>
+            Gets or sets the value of variable Text.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.AddedRegularExpression">
+            <summary>
+            Gets or sets the value of variable AddedRegularExpression.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.AddedRegularExpression2">
+            <summary>
+            Gets or sets the value of variable AddedRegularExpression2.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.Replace_Text">
+            <summary>
+            Gets or sets the value of variable Replace_Text.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.Replace_AddedRegularExpression">
+            <summary>
+            Gets or sets the value of variable Replace_AddedRegularExpression.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTabRegualrExpression.Replace_AddedRegularExpression2">
+            <summary>
+            Gets or sets the value of variable Replace_AddedRegularExpression2.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ReplaceTabRegualrExpression.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.ReplaceTabRegualrExpression.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ReplaceTabRegualrExpression.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.ReplaceTabRegualrExpression.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.ToolTip">
+             <summary>
+            The ToolTip recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.ToolTip.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ToolTip.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ToolTip.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ToolTip.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.ToolTip.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ToolTip.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.ToolTip.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.ReplaceTab">
+             <summary>
+            The ReplaceTab recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.ReplaceTab.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ReplaceTab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTab.Text_Find">
+            <summary>
+            Gets or sets the value of variable Text_Find.
+            </summary>
+        </member>
+        <member name="P:SearchTests.ReplaceTab.Text_Replace">
+            <summary>
+            Gets or sets the value of variable Text_Replace.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ReplaceTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.ReplaceTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.ReplaceTab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.ReplaceTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepository">
+            <summary>
+            The class representing the SearchTestsRepository element repository.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SearchTestsRepository element repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.UltraEdit64Bit">
+            <summary>
+            The UltraEdit64Bit folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.Uedit64">
+            <summary>
+            The Uedit64 folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.Open">
+            <summary>
+            The Open folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.HEXFindReplace">
+            <summary>
+            The HEXFindReplace folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.TrialPeriodExpiring">
+            <summary>
+            The TrialPeriodExpiring folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.FormCUsersBhavyaSmDownloadsUe202">
+            <summary>
+            The FormCUsersBhavyaSmDownloadsUe202 folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.UltraEdit">
+            <summary>
+            The UltraEdit folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.FindAndReplace">
+            <summary>
+            The FindAndReplace folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.FormEdit1UltraEdit64Bit">
+            <summary>
+            The FormEdit1UltraEdit64Bit folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.UltraEdit64Bit1">
+            <summary>
+            The UltraEdit64Bit1 folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepository.FormEdit1UltraEdit64Bit1">
+            <summary>
+            The FormEdit1UltraEdit64Bit1 folder.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder">
+            <summary>
+            The UltraEdit64BitAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UltraEdit64Bit  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.ApplicationMenu">
+            <summary>
+            The ApplicationMenu item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.ApplicationMenuInfo">
+            <summary>
+            The ApplicationMenu item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.Element59648">
+            <summary>
+            The Element59648 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64BitAppFolder.Element59648Info">
+            <summary>
+            The Element59648 item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder">
+            <summary>
+            The Uedit64AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Uedit64  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.FindReplaceInFiles">
+            <summary>
+            The FindReplaceInFiles item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.FindReplaceInFilesInfo">
+            <summary>
+            The FindReplaceInFiles item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.Find">
+            <summary>
+            The Find item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.FindInfo">
+            <summary>
+            The Find item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.Hungarian">
+            <summary>
+            The Hungarian item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.HungarianInfo">
+            <summary>
+            The Hungarian item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.MenuItem47">
+            <summary>
+            The MenuItem47 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.MenuItem47Info">
+            <summary>
+            The MenuItem47 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.German">
+            <summary>
+            The German item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.GermanInfo">
+            <summary>
+            The German item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.Test">
+            <summary>
+            The Test item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.TestInfo">
+            <summary>
+            The Test item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.MenuItemAnySingleCharacterExceptN">
+            <summary>
+            The MenuItemAnySingleCharacterExceptN item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.MenuItemAnySingleCharacterExceptNInfo">
+            <summary>
+            The MenuItemAnySingleCharacterExceptN item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.MenuItemPlusPlusZeroOrMorePreceding">
+            <summary>
+            The MenuItemPlusPlusZeroOrMorePreceding item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.MenuItemPlusPlusZeroOrMorePrecedingInfo">
+            <summary>
+            The MenuItemPlusPlusZeroOrMorePreceding item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.Uedit64AppFolder.Popup">
+            <summary>
+            The Popup folder.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.PopupFolder">
+            <summary>
+            The PopupFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.PopupFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Popup  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemPercentStartOfLine">
+            <summary>
+            The MenuItemPercentStartOfLine item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemPercentStartOfLineInfo">
+            <summary>
+            The MenuItemPercentStartOfLine item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemPlusOneOrMorePrecedingChar">
+            <summary>
+            The MenuItemPlusOneOrMorePrecedingChar item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemPlusOneOrMorePrecedingCharInfo">
+            <summary>
+            The MenuItemPlusOneOrMorePrecedingChar item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemCaretnLineFeedLFOnlyUnix">
+            <summary>
+            The MenuItemCaretnLineFeedLFOnlyUnix item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemCaretnLineFeedLFOnlyUnixInfo">
+            <summary>
+            The MenuItemCaretnLineFeedLFOnlyUnix item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemCaretrCarriageReturnCROnly">
+            <summary>
+            The MenuItemCaretrCarriageReturnCROnly item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.PopupFolder.MenuItemCaretrCarriageReturnCROnlyInfo">
+            <summary>
+            The MenuItemCaretrCarriageReturnCROnly item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder">
+            <summary>
+            The OpenAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Open  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.Text1148">
+            <summary>
+            The Text1148 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.Text1148Info">
+            <summary>
+            The Text1148 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.ButtonOpen">
+            <summary>
+            The ButtonOpen item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.OpenAppFolder.ButtonOpenInfo">
+            <summary>
+            The ButtonOpen item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder">
+            <summary>
+            The HEXFindReplaceAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HEXFindReplace  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.TabPageList1001">
+            <summary>
+            The TabPageList1001 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.TabPageList1001Info">
+            <summary>
+            The TabPageList1001 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.FindASCII">
+            <summary>
+            The FindASCII item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.FindASCIIInfo">
+            <summary>
+            The FindASCII item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Text1687">
+            <summary>
+            The Text1687 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Text1687Info">
+            <summary>
+            The Text1687 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.CheckBoxMatchCase">
+            <summary>
+            The CheckBoxMatchCase item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.CheckBoxMatchCaseInfo">
+            <summary>
+            The CheckBoxMatchCase item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.ButtonNext">
+            <summary>
+            The ButtonNext item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.ButtonNextInfo">
+            <summary>
+            The ButtonNext item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Replace">
+            <summary>
+            The Replace item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.ReplaceInfo">
+            <summary>
+            The Replace item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button1">
+            <summary>
+            The Button1 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button1Info">
+            <summary>
+            The Button1 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Text1695">
+            <summary>
+            The Text1695 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Text1695Info">
+            <summary>
+            The Text1695 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Find">
+            <summary>
+            The Find item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.FindInfo">
+            <summary>
+            The Find item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.RegularExpressionsASCIIOnly">
+            <summary>
+            The RegularExpressionsASCIIOnly item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.RegularExpressionsASCIIOnlyInfo">
+            <summary>
+            The RegularExpressionsASCIIOnly item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button2">
+            <summary>
+            The Button2 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button2Info">
+            <summary>
+            The Button2 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button3">
+            <summary>
+            The Button3 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.HEXFindReplaceAppFolder.Button3Info">
+            <summary>
+            The Button3 item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.TrialPeriodExpiringAppFolder">
+            <summary>
+            The TrialPeriodExpiringAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.TrialPeriodExpiringAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TrialPeriodExpiring  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.TrialPeriodExpiringAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.TrialPeriodExpiringAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.TrialPeriodExpiringAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.TrialPeriodExpiringAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder">
+            <summary>
+            The FormCUsersBhavyaSmDownloadsUe202AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormCUsersBhavyaSmDownloadsUe202  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.Element59648">
+            <summary>
+            The Element59648 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.Element59648Info">
+            <summary>
+            The Element59648 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormCUsersBhavyaSmDownloadsUe202AppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder">
+            <summary>
+            The UltraEditAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UltraEdit  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.UltraEdit">
+            <summary>
+            The UltraEdit item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.UltraEditInfo">
+            <summary>
+            The UltraEdit item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.Text65535">
+            <summary>
+            The Text65535 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.Text65535Info">
+            <summary>
+            The Text65535 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEditAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.Icon">
+            <summary>
+            The Icon item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.IconInfo">
+            <summary>
+            The Icon item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.Appid6D8093776AF0444B8957A3773F02">
+            <summary>
+            The Appid6D8093776AF0444B8957A3773F02 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.ExplorerAppFolder.Appid6D8093776AF0444B8957A3773F02Info">
+            <summary>
+            The Appid6D8093776AF0444B8957A3773F02 item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder">
+            <summary>
+            The FindAndReplaceAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FindAndReplace  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.FindInFiles">
+            <summary>
+            The FindInFiles item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.FindInFilesInfo">
+            <summary>
+            The FindInFiles item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.Find">
+            <summary>
+            The Find item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.FindInfo">
+            <summary>
+            The Find item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.Text2541">
+            <summary>
+            The Text2541 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FindAndReplaceAppFolder.Text2541Info">
+            <summary>
+            The Text2541 item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder">
+            <summary>
+            The FormEdit1UltraEdit64BitAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormEdit1UltraEdit64Bit  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.ApplicationMenu">
+            <summary>
+            The ApplicationMenu item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.ApplicationMenuInfo">
+            <summary>
+            The ApplicationMenu item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Element118">
+            <summary>
+            The Element118 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Element118Info">
+            <summary>
+            The Element118 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Element59648">
+            <summary>
+            The Element59648 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Element59648Info">
+            <summary>
+            The Element59648 item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Text1001">
+            <summary>
+            The Text1001 item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64BitAppFolder.Text1001Info">
+            <summary>
+            The Text1001 item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder">
+            <summary>
+            The UltraEdit64Bit1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new UltraEdit64Bit1  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.FindReplaceInFiles">
+            <summary>
+            The FindReplaceInFiles item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.UltraEdit64Bit1AppFolder.FindReplaceInFilesInfo">
+            <summary>
+            The FindReplaceInFiles item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64Bit1AppFolder">
+            <summary>
+            The FormEdit1UltraEdit64Bit1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64Bit1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormEdit1UltraEdit64Bit1  folder.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64Bit1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64Bit1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64Bit1AppFolder.Find">
+            <summary>
+            The Find item.
+            </summary>
+        </member>
+        <member name="P:SearchTests.SearchTestsRepositoryFolders.FormEdit1UltraEdit64Bit1AppFolder.FindInfo">
+            <summary>
+            The Find item info.
+            </summary>
+        </member>
+        <member name="T:SearchTests.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:SearchTests.StartAUT.repo">
+            <summary>
+            Holds an instance of the SearchTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:SearchTests.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SearchTests.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SearchTests.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:SearchTests.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SearchTests.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SearchTests.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SearchTests.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

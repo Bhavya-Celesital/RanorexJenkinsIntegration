@@ -1,0 +1,979 @@
+﻿<repository
+id="2eeee25c-7b0e-4a16-aa97-426455490ad6"
+name="SearchTestsRepository">
+	<codegen
+	classname="SearchTestsRepository"
+	namespace="SearchTests">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="69e2e14a-2afa-404b-99ea-16e1afd64364"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bc1a05a2-0e50-4627-9c3e-08592780baf7"
+		isrooted="True"
+		name="UltraEdit64Bit"
+		refpath="/form[@title='UltraEdit 64-bit']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1205d937-7cd8-455e-a158-ea37ce0476e2"
+			name="ApplicationMenu"
+			refimgid="ecf1a892-4950-4ff9-88d5-272554a5dcbb"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='UltraEdit 64-bit']/?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu' and @accessibledefaultaction='Press']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="a7b0cbe8-c9a1-41ab-8e21-0da0ab4ef261"
+			name="Element59648"
+			refimgid="4bfcd979-e0ce-4843-8ab0-172a5e3fe4b4"
+			refpath="/form[@title>'[C:\Users\bhavya.sm\Downl']/container[@controlid='59648']/form/element/element[@controlid='59648']"
+			robustPath="/form[@title='UltraEdit 64-bit']//element[@class='EditControl']"
+			searchtimeout="30000ms">
+				/form[@title='UltraEdit 64-bit']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']
+			</item>
+			<basepath>
+				/form[@title='UltraEdit 64-bit']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c9931933-4c45-45a6-a02f-0eabf7e6d625"
+		isrooted="True"
+		name="Uedit64"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="bfc7f68c-c717-4259-9f2a-e43835d21ddc"
+			name="Open"
+			refimgid="3adacb3a-7285-498a-8001-7014402dc1e8"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='Open']"
+			robustPath="/form[@title='']//menuitem[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="89e3955f-60e9-4f49-82c0-1e6efbeb83f0"
+			name="FindReplaceInFiles"
+			refimgid="a1cc7940-fad0-4c0c-ba2d-7da5d58727be"
+			refpath="/form[@title='']/element/toolbar/button[@accessiblename='Find/replace in files']"
+			robustPath="/form[@title='']//button[@accessiblename='Find/replace in files']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='']/button[@accessiblename='Find/replace in files']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="cfe8eb09-2f42-48f9-bc39-bcea31d7034f"
+			name="Find"
+			refimgid="17018b92-e49e-43dd-9335-322bb121d074"
+			refpath="/form[@title='']/element/toolbar/button[@accessiblename='Find']"
+			robustPath="/form[@title='']//button[@accessiblename='Find']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='']/button[@accessiblename='Find']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="74d2de27-43be-41c3-85a2-d4506e52e076"
+			name="Hungarian"
+			refimgid="9e1c9fad-0cf4-4ee9-abfb-25187b6116b8"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='hungarian']"
+			robustPath="/form[@title='']//menuitem[@accessiblename='hungarian']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename='hungarian']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="94e7fc17-666d-4faf-8ef1-caf4a62bd35c"
+			name="MenuItem47"
+			refimgid="a1ed687d-988f-4477-a999-d881ce48445e"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='47 ']"
+			robustPath="/form[@title='']//menuitem[@accessiblename='47 ']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename='47 ']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="66b109bd-1ad3-4510-a67c-7ab61a7e7bc6"
+			name="German"
+			refimgid="ee18a760-8ca8-49db-850e-f4b8cae71288"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='german']"
+			robustPath="/form[@title='']//menuitem[@accessiblename='german']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename='german']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="b40b4e12-8a49-4ecc-b352-594d21b4f48a"
+			name="Test"
+			refimgid="120854da-7a74-4852-a51c-edcf52c39763"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='test']"
+			robustPath="/form[@title='']//menuitem[@accessiblename='test']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename='test']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="6889c45b-c20b-49c8-8ce2-06b2f51399e5"
+			name="MenuItemAnySingleCharacterExceptN"
+			refimgid="292c03f9-ceb4-4b59-93a4-a8ef37febcf9"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename>'? Any single character (except']"
+			robustPath="/form[@title='']//menuitem[@accessiblename>'? Any single character (except']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename&gt;'? Any single character (except']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="8a5436c8-a25a-4648-9776-e92e23526791"
+			name="MenuItemPlusPlusZeroOrMorePreceding"
+			refimgid="4a91dbb3-9ca6-4c73-9b9d-6d96d5a4b355"
+			refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename>'++ Zero or more preceding']"
+			robustPath="/form[@title='']//menuitem[@accessiblename>'++ Zero or more preceding']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename&gt;'++ Zero or more preceding']
+			</item>
+			<folder
+			addcaps="toolbar,accessible"
+			capname="toolbar"
+			id="a72d25ca-80d6-4ca0-810e-1282aedf40bf"
+			isrooted="True"
+			name="Popup"
+			refpath="/form[@title='']/element[@controlid='1']/toolbar[@accessiblename='Popup']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="menuitem,accessible"
+				capname="menuitem"
+				id="e1d8edc2-2485-4c3c-9ec5-6e1548821d41"
+				name="MenuItemPercentStartOfLine"
+				refimgid="2f9859a8-7cf5-42e1-876c-9f4c48b50c10"
+				refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename='% Start of line']"
+				robustPath="/form[@title='']//menuitem[@accessiblename='% Start of line']"
+				searchtimeout="30000ms">
+					/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename='% Start of line']
+				</item>
+				<item
+				addcaps="menuitem,accessible"
+				capname="menuitem"
+				id="ec55663f-cf73-4d53-b1c5-f56245d2ee8c"
+				name="MenuItemPlusOneOrMorePrecedingChar"
+				refimgid="743a8ebd-64d8-4acb-9d11-c5b197a64105"
+				refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename>'+ One or more preceding']"
+				robustPath="/form[@title='']//menuitem[@accessiblename>'+ One or more preceding']"
+				searchtimeout="30000ms">
+					/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename&gt;'+ One or more preceding']
+				</item>
+				<item
+				addcaps="menuitem,accessible"
+				capname="menuitem"
+				id="fbb85b1d-9587-4614-938b-076911bbc73a"
+				name="MenuItemCaretnLineFeedLFOnlyUnix"
+				refimgid="55ca57cf-e4e7-48af-9add-d63c15114e0a"
+				refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename>'^n Line feed (LF only)(Unix']"
+				robustPath="/form[@title='']//menuitem[@accessiblename>'^n Line feed (LF only)(Unix']"
+				searchtimeout="30000ms">
+					/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename&gt;'^n Line feed (LF only)(Unix']
+				</item>
+				<item
+				addcaps="menuitem,accessible"
+				capname="menuitem"
+				id="a446e824-ce26-478b-a2a9-ab6e9bf9a6eb"
+				name="MenuItemCaretrCarriageReturnCROnly"
+				refimgid="861a657d-7427-4229-9c0c-d67ee8f79709"
+				refpath="/form[@title='']/element/toolbar/menuitem[@accessiblename>'^r Carriage return (CR only)(Mac']"
+				robustPath="/form[@title='']//menuitem[@accessiblename>'^r Carriage return (CR only)(Mac']"
+				searchtimeout="30000ms">
+					/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename&gt;'^r Carriage return (CR only)(Mac']
+				</item>
+				<basepath>
+					/form[@title='']/?/?/toolbar[@accessiblename='Popup']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="573a71de-b5b9-4979-86bd-98d35f5970bd"
+		isrooted="True"
+		name="Open"
+		refpath="/form[@title='Open']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="0d63aa9e-8695-472b-b358-415279c0cd2d"
+			name="Text1148"
+			refimgid="02499469-8787-41a8-b3a2-39fb8c450e06"
+			refpath="/form[@title='Open']/combobox[@controlid='1148']/text[@controlid='1148']"
+			robustPath="/form[@title='Open']/?/?/text[@controlid='1148']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/?/?/text[@controlid='1148']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5d1bd53c-188b-4bb6-8c4d-0754da2c1283"
+			name="ButtonOpen"
+			refimgid="59f8acc7-41a4-4f3e-b337-6a2fe6f62dd1"
+			refpath="/form[@title='Open']/button[@text='&amp;Open']"
+			robustPath="/form[@title='Open']/button[@text='&amp;Open']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/button[@text='&amp;Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b8f0144f-d73a-4ce3-b89a-4e2f0fc9955c"
+		isrooted="True"
+		name="HEXFindReplace"
+		refimgid="47886a52-3591-4be5-b776-8db32bff51db"
+		refpath="/form[@title='HEX Find/Replace']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpagelist,nativewindow"
+			capname="tabpagelist"
+			id="916c910d-e7b5-43c4-b2d9-ab60a55bfd06"
+			name="TabPageList1001"
+			refimgid="c13a2f06-17c3-4de7-a9d8-b1370700a2d0"
+			refpath="/form[@title='HEX Find/Replace']/element[@controlid='1097']/tabpagelist[@controlid='1001']"
+			robustPath="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="0cea3d81-6632-4e8a-a61e-4c1bdea5cb18"
+			name="FindASCII"
+			refimgid="849cbc17-2f68-45ae-b92b-89a352e2ce2e"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/checkbox[@text='Find A&amp;SCII']"
+			robustPath="/form[@title='HEX Find/Replace']//checkbox[@text='Find A&amp;SCII']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="1bbab43b-34f0-4a0d-828e-351835cdc78d"
+			name="Text1687"
+			refimgid="83b12fe5-9afb-4f47-9cbe-882499edf0ec"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="d681df9f-ad22-459d-aa86-3e63c039ac75"
+			name="CheckBoxMatchCase"
+			refimgid="5bc4b151-b2c1-4457-b715-8e1d161593ed"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/checkbox[@text='&amp;Match case']"
+			robustPath="/form[@title='HEX Find/Replace']//checkbox[@text='&amp;Match case']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='&amp;Match case']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="1c098b0e-4692-4b71-b456-bdd50f73a35e"
+			name="ButtonNext"
+			refimgid="f9dc4cb4-ca1b-4782-a238-26a6048306c3"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/button[@text='&amp;Next']"
+			robustPath="/form[@title='HEX Find/Replace']//button[@text='&amp;Next']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@text='&amp;Next']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="d59b4fd2-e46e-470d-a753-18d1a8e9deb0"
+			name="Button"
+			refimgid="6c4d10a7-5e69-4a33-a35c-75cb37fc58ca"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/button[@text='' and @controlid='1692']"
+			robustPath="/form[@title='HEX Find/Replace']//button[@controlid='1692']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@controlid='1692']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="9ef2d6bd-abf6-4612-bde8-ae0d0c8f0716"
+			name="Replace"
+			refimgid="2d3ae37c-778e-49a5-82a5-b89e278c7e39"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/tabpage[@title='Replace']"
+			robustPath="/form[@title='HEX Find/Replace']//tabpage[@title='Replace']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']/tabpage[@title='Replace']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="1b5859fd-0bfc-49e9-a9fa-2d1e5fd27f9e"
+			name="Button1"
+			refimgid="db8700ec-6973-46e0-9acf-3a21802b68ca"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/button[@text='' and @controlid='1697']"
+			robustPath="/form[@title='HEX Find/Replace']//button[@controlid='1697']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@controlid='1697']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="f49f83b1-d040-4199-a944-c36e48aa2fef"
+			name="Text1695"
+			refimgid="30d5bfc9-b0f5-4d6f-be42-53f582101102"
+			refpath="/form[@title='HEX Find/Replace']/element[@controlid='1097']/tabpagelist[@controlid='1001']/container[@class='#32770']/text[@controlid='1695']"
+			robustPath="/form[@title='HEX Find/Replace']//text[@controlid='1695']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1695']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="eede8e69-6850-4146-884d-0156e4960f7d"
+			name="Find"
+			refimgid="e5e2671a-62fa-4e52-b807-443d99f3e3b7"
+			refpath="/form[@title='HEX Find/Replace']/element[@controlid='1097']/tabpagelist[@controlid='1001']/tabpage[@title='Find']"
+			robustPath="/form[@title='HEX Find/Replace']//tabpage[@title='Find']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']/tabpage[@title='Find']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="4b858aac-d22e-4489-a7a8-e7ed643a8784"
+			name="RegularExpressionsASCIIOnly"
+			refimgid="e04f6172-8ca1-4bc5-8fe0-6516a29ec7e5"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/checkbox[@text>'Regular &amp;expressions (ASCII']"
+			robustPath="/form[@title='HEX Find/Replace']//checkbox[@text>'Regular &amp;expressions (ASCII']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text&gt;'Regular &amp;expressions (ASCII']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5afacf8a-060d-486e-88c9-f9e99509a367"
+			name="Button2"
+			refimgid="53778c5a-d986-4bd3-b641-97db39829759"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/button[@text='' and @controlid='1693']"
+			robustPath="/form[@title='HEX Find/Replace']//button[@controlid='1693']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@controlid='1693']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4df991a1-328b-40b0-8cbb-d8a6f1635f97"
+			name="Button3"
+			refimgid="71d87fbb-40cc-49d6-81b5-8d9cb03850da"
+			refpath="/form[@title='HEX Find/Replace']/element/tabpagelist/container/button[@text='' and @controlid='1698']"
+			robustPath="/form[@title='HEX Find/Replace']//button[@controlid='1698']"
+			searchtimeout="30000ms">
+				/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@controlid='1698']
+			</item>
+			<basepath>
+				/form[@title='HEX Find/Replace']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="259e6ef9-2f3f-4da1-af60-8972394474fb"
+		isrooted="True"
+		name="TrialPeriodExpiring"
+		refpath="/form[@title='Trial Period Expiring']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="7ef438ae-f529-4063-883f-defb341a6ef1"
+			name="Close"
+			refimgid="f7f383cb-5fec-4f3a-8cb2-d970fa76321e"
+			refpath="/form[@title='Trial Period Expiring']/form/titlebar/button[@name='Close']"
+			robustPath="?/?/titlebar/button[@name='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']
+			</item>
+			<basepath>
+				/form[@title='Trial Period Expiring']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAArZJREFUOE99kltIk2EYx1/nvm8Hzc1vm0tlmjRXDtNopEmidkIUA7NI
+owNGdmfiTV1kZnlTSRDURR5uXJhBJy2UjEghbxQ0sMhC7CJiB908zbRvXvztfb99W1TYHx54eXl/
+z/85vGQjif6OCnG2tUmcvdwkuouOytf/V36+1ST62iZoQPS1IjhzDUFPCYIuAT+/qbD6lf+4P5eY
+5ed/am2uY28I3ACe5rE6yWPlA4fl8egDMhZSXt6W1Ag82wpRhsUITOMzg3kKc1gaVaEgl6TLOOu3
+LRB2/g0bIIadGTxBncc4BEZUWBzWYnFQG6Coghwp3pXI4CXXfdScPYZz1cW0bAPev9WjvCwDdTUW
+PL2nxe6sWOywKZGRFoW6Sg5zr+MwP6DPZr2/YAk8U1dRVLQPh0tzJOf222bYbNvRUJuAmuNqKJVK
+bEuNQpZVgZ5bWvj79PD36t6xBOus7PGhMuTk7MHpqgyp5+qqJFgsFjxo2QSHXQFaLrqaVXh1R4uZ
+l3r4evTwPtGDrPma14PuUlxvsCMzMxs3GhOx/ImHzZoIo9GEkUdqcEoiJWDBzt5nIdjzUKAJvCXf
+g+54VFZshdWajvab8RjrUUMQBKQmx2KwQy2BhTuj4WzQ4nlzTAR2O4UVsubRXWI9N100ISkpGZvN
+JiSYdNBoNKg/pUZLPS8lSDErUJCtxIVyFTzd8XA5DXB3GptIYSFRsp4X6Y5rz8TBKMQi2axC43ke
+noEYnCzmIuWzuHJCA1engYYRZQ6ipXeErH7h7kqfRN7zwrAGC4Mx0qr8fbrQwB7TsrsFyZnBbqex
+S4JlKX6MK6cCI7z0SRg8/xfspT2HnWmSacpEh1BZDgfhlobVAwtDMtwvw3RgDHaHnTuNb+x2wsvY
+vzroIClz/bpRX68M04HJ8OShLFWa/EwWIb8AGkHrXuV7634AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c72d92be-c5c9-4ea2-99c2-955280a0b5f1"
+		isrooted="True"
+		name="FormCUsersBhavyaSmDownloadsUe202"
+		refimgid="ba3f8cb4-8631-46fc-823d-935972b90d87"
+		refpath="/form[@title='[C:\Users\bhavya.sm\Downloads\ue-20241025T061201Z-004 1\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt] - UltraEdit 64-bit']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="3ab3e610-204f-4118-88a0-71e07da8d412"
+			name="Element59648"
+			refimgid="df368927-11c8-431f-8e84-099db07fef33"
+			refpath="/form[@title='[C:\Users\bhavya.sm\Downloads\ue-20241025T061201Z-004 1\ue\encodingTestsBOM\langFile_ASCII_DOS(0).txt] - UltraEdit 64-bit']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/element[@controlid='59648']"
+			robustPath="/form[@title>'[C:\Users\bhavya.sm\Downl']//element[@controlid='59648' and @class='EditControl']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'[C:\Users\bhavya.sm\Downl']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="876b42b1-a0b9-4b12-9c44-07567fa3649f"
+			name="Home"
+			refimgid="914776f7-7610-4e53-b8d7-652e0738aab9"
+			refpath="/form[@title>'[C:\Users\bhavya.sm\Downl']/element[@controlid='59398']/toolbar/container/tabpage[@accessiblename='Home']"
+			robustPath="/form[@title>'[C:\Users\bhavya.sm\Downl']//tabpage[@accessiblename='Home']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'[C:\Users\bhavya.sm\Downl']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Home']
+			</item>
+			<basepath>
+				/form[@title&gt;'[C:\Users\bhavya.sm\Downl']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bcbb12bc-65f1-4bd8-aa10-7c7a97089bcf"
+		isrooted="True"
+		name="UltraEdit"
+		refpath="/form[@title='UltraEdit']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="form,uiautomation"
+			capname="form"
+			id="2a76a92f-0c38-437e-b8ff-eaa3fdf16dcf"
+			name="UltraEdit"
+			refimgid="17cdef32-c34f-4db6-a101-58c3a6b0a28b"
+			refpath="/form[@title='UltraEdit']/form[@name='UltraEdit']"
+			robustPath="/form[@title='UltraEdit']/form[@name='UltraEdit']"
+			searchtimeout="30000ms">
+				/form[@title='UltraEdit']/form[@name='UltraEdit']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="a118a064-1e67-4238-a6cc-d55008532c96"
+			name="Text65535"
+			refimgid="130757ba-c4ca-4e76-b392-b3fe4a44b269"
+			refpath="/form[@title='UltraEdit']/text[@controlid='65535']"
+			robustPath="/form[@title='UltraEdit']/text[@controlid='65535']"
+			searchtimeout="30000ms">
+				/form[@title='UltraEdit']/text[@controlid='65535']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="bfac1349-d6bf-4b4a-ac79-77823c549579"
+			name="ButtonOK"
+			refimgid="b441eb13-e34b-4bea-b33e-3651c148b992"
+			refpath="/form[@title='UltraEdit']/button[@text='OK']"
+			robustPath="/form[@title='UltraEdit']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='UltraEdit']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='UltraEdit']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="a4b701f8-a630-4ce6-8564-1531eb6e2858"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,uiautomation,uiautomationscrollitem"
+			capname="picture"
+			id="6499d527-1e55-4c3e-8bd6-8d81e4f72c0c"
+			name="Icon"
+			refimgid="0c796d7b-2175-40d0-99d2-67b5ff8c0df9"
+			refpath="/menubar[@processname='explorer']/element[@class='Windows.UI.Composition.DesktopWindowContentBridge']/container/container/container/button[@automationid='Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\IDM Computer Solutions\UltraEdit\uedit64.exe']/picture[@automationid='Icon']"
+			robustPath="/menubar[@processname='explorer']//button[@automationid='Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\IDM Computer Solutions\UltraEdit\uedit64.exe']/picture[@automationid='Icon']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']//container[@automationid='TaskbarFrame']/?/?/button[@automationid='Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\IDM Computer Solutions\UltraEdit\uedit64.exe']/picture[@automationid='Icon']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="b0795d06-f2c1-4b50-a620-8c5eeb729052"
+			name="Appid6D8093776AF0444B8957A3773F02"
+			refimgid="192d9265-593b-475c-9970-b610fcfe34c4"
+			refpath="/menubar[@processname='explorer']/element[@class='Windows.UI.Composition.DesktopWindowContentBridge']/container/container/container/button[@automationid='Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\IDM Computer Solutions\UltraEdit\uedit64.exe']"
+			robustPath="/menubar[@processname='explorer']//button[@automationid='Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\IDM Computer Solutions\UltraEdit\uedit64.exe']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']//container[@automationid='TaskbarFrame']/container[@automationid='TaskbarFrameRepeater']/button[@automationid='Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\IDM Computer Solutions\UltraEdit\uedit64.exe']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a98be5a3-ef95-4ecc-aec9-d724c1ba404c"
+		isrooted="True"
+		name="FindAndReplace"
+		refimgid="5d9f0c0b-9349-416d-b941-f2475ab3ab96"
+		refpath="/form[@title='Find and Replace']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="eef96a06-c7b2-47c0-8c82-cfb13b2792fb"
+			name="Button"
+			refimgid="b465cddd-f8a0-468c-a393-87d21e787f7e"
+			refpath="/form[@title='Find and Replace']/element/tabpagelist/container/button[@text='' and @controlid='2534']"
+			robustPath="/form[@title='Find and Replace']//button[@controlid='2534']"
+			searchtimeout="30000ms">
+				/form[@title='Find and Replace']//container[@class='#32770']/button[@controlid='2534']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="ad0be894-6660-4704-a7b8-0f7885b9c4d2"
+			name="FindInFiles"
+			refimgid="6d4b48b4-b3d1-4134-96f2-a892de8e234b"
+			robustPath=".//tabpage[@title='Find in Files']"
+			searchtimeout="30000ms">
+				/form[@title='Find and Replace']//tabpagelist[@controlid='1205']/tabpage[@title='Find in Files']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="0e7d001b-4167-4fe7-94d0-ff6acb30a1ad"
+			name="Find"
+			refimgid="2ada6326-a426-4637-ad14-20c1d8d8e5b7"
+			refpath="/form[@title='Find and Replace']/element[@controlid='33425']/tabpagelist[@controlid='1205']/tabpage[@title='Find']"
+			robustPath=".//tabpage[@title='Find']"
+			searchtimeout="30000ms">
+				/form[@title='Find and Replace']/?/?/tabpagelist[@controlid='1205']/tabpage[@title='Find']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="14766583-4927-4a5e-966b-c8ed904c6321"
+			name="Text2541"
+			refimgid="fc455933-5b7b-456f-a862-a6c2f1e05616"
+			robustPath="/form[@title='Find and Replace']//text[@controlid='2541']"
+			searchtimeout="30000ms">
+				/form[@title='Find and Replace']//container[@class='#32770']/text[@controlid='2541' and @processname='uedit64']
+			</item>
+			<basepath>
+				/form[@title='Find and Replace']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e0b8f3be-e76f-4646-8cc1-2b90099e2251"
+		isrooted="True"
+		name="FormEdit1UltraEdit64Bit"
+		refpath="/form[@title='[Edit1] - UltraEdit 64-bit']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6f09845c-1b37-4aa0-adbd-483e405fe632"
+			name="ApplicationMenu"
+			refimgid="b3fe8eff-a952-402b-9d0c-cbe01213440e"
+			robustPath="/form[@title>'[Edit1] - UltraEdit 64-bi']//button[@accessiblename='Application menu']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'[Edit1] - UltraEdit 64-bi']/?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="d228532e-0729-4bf3-90da-1f40913f4b5c"
+			name="Element118"
+			refimgid="a11cdae4-3d83-4365-9950-9ed429896f43"
+			refpath="/form[@title>'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form/element/element[@controlid='59648']/element[@controlid='118']"
+			robustPath="/form[@title>'[Edit1] - UltraEdit 64-bi']//element[@controlid='118']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form[@controlid='65280']//element[@controlid='118']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="56ff6c3e-21d8-4b34-94f1-6b905aed382e"
+			name="Element59648"
+			refimgid="d0dd69e9-7c01-426c-aef1-1d218bb07553"
+			refpath="/form[@title>'[C:\UltraEditFiles\ue-202']/container[@controlid='59648']/form/element/element[@controlid='59648']"
+			robustPath="/form[@title>'[Edit1] - UltraEdit 64-bi']//element[@controlid='59648' and @class='EditControl']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'[Edit1] - UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e4bf4787-59f7-4127-a75d-8990629a93fb"
+			name="Text1001"
+			refimgid="57580f0f-4daf-47d7-8798-db0f4d1c9022"
+			refpath="/form[@title>'[C:\UltraEditFiles\ue-202']/container[@controlid='59648']/form/element/element[@controlid='59648']/element/combobox/text[@controlid='1001']"
+			robustPath="/form[@title>'[Edit1] - UltraEdit 64-bi']//text[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']
+			</item>
+			<basepath>
+				/form[@title&gt;'[Edit1] - UltraEdit 64-bi']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANQSURBVDhPbZN7TJNXGMZPaXvohX7f14tVmqBR
+IpVGEemQSCRYYmfCnF3mdGYRIWpIvJAscWYmJtbdNBpFNw3SNmMWhhE1RqJOEeemExIvUaIk3hUv
+vdCvIArVr/zxuNMPYtT4JOe/9/c857zve8iHKi11ZEixQLkUr/dKsR1eKVrFTrbH4yHCaMnH5XRO
+4ofF+lXJuD8iifWQYruQjNQgGfoE0lMeUg+NvbpLN5UUkExWrhihRlU4xWZOiv4tkuhj4CgcXQsp
+zOBnAl4/SserOxSJbjUGu1THSvLIxFGUEIfDQZOi7ycZlpNrIaXgUCFLZvBD+hYeuq7Gy8sUAx00
+MHMm4WSD4X5/yWvRN9j/eC9uXvoFD7pWY+hJER5dt6LrHId7F3S4cSodHS0UF5rUuBik6G3Xo/+s
+4fMRg3igJRHdh//avFhe+QW2/TgLPdfGYJs3C0sWZuOHdRZUfKnH9Nx05GanobRAiVsHM9D3l+Gc
+bJCMB8SXoVrU7V6OsrISeL+340obh688E+GeMwErvxYwJZsiL0eFJW4VNlal4+EhDvFjfGLRIkLZ
+DX57M/C4ButqXChzFcC/w4bTzRzy87KweL4V38zXwKBXoHh6GtYvpejcl4HoUR69RwTEmg2TyXCs
+5k3fvSLMdeXD7bLjVKOA+i0crFYrlnk4LHQroVISjDUpMGGsAq0/ZyB8SEDkgJEZWJhBtEAUbxsx
+bZqdpY7Hmkojyst4ZFo5LP1Mg3nFaTDoCOYVKlHxKcXVOk6Gw02mRLWTqEkyxJ14fluDVZVWZI4b
+B1umAItZD/csDbzVFPk5aVCrCLKsCsyeqkTnTh7hoBmh/Za/5SayJXENsTl3n9aiYasO27/TYs8G
+Lc77tOj06/Hrt1psrtJgc4UWtdU6dNcZUzCeNZpHxuhwEJq4SRsG2ZLEOyhC7RpE2vSItxnQ28qh
+5yCPB0087jcYcT9gwtM/zAjvtzQ7JxFeNkhphp3YBi+rT77o0GDgXx36zxjQd5KD2DrS7dSbQ0GT
+nBwOWs4W5dLJDHv/PzhziOXFed365+2GyFv4sIBoqmGNDA6aYgzeVGzX2lj5+/C7mp1PxsSPC5Wx
+o4Kvt8X4T/hP8++RRsuKBcUy+IEI+R+Jp+AycICLTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="14d3eb5d-b572-4d62-a4c6-aada384fa128"
+		isrooted="True"
+		name="UltraEdit64Bit1"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="cb25d3f5-e9bf-41e3-9d6b-f56b8932e654"
+			name="Home"
+			refimgid="78c8896d-0b6d-4d44-b59e-d9f0a5df4781"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title~'UltraEdit 64-bi']//toolbar[@accessiblerole='ToolBar']//tabpage[@accessiblename='Home']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6525ea1e-b645-4149-82af-0ca6b5a97051"
+			name="FindReplaceInFiles"
+			refimgid="05037c45-d64e-4369-8c01-7516ffeef9d7"
+			robustPath=".//button[@accessiblename='Find/replace in files']"
+			searchtimeout="30000ms">
+				/form[@title~'UltraEdit 64-bi']//toolbar[@accessiblename='Home']//button[@accessiblename='Find/replace in files']
+			</item>
+			<basepath>
+				/form[@title~'UltraEdit 64-bi']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA1BJREFUOE9tk3tMk1cYxk9pe+iFft/Xi1WaoFEilUYR6ZBIJFhiZ8Kc
+XeZ0ZhEhaki8kCxxZiYm1t00GkU3DdI2YxaGETVGok4R56YTEi9RoiTeFS+90K8gCtWv/PG40w9i
+1Pgk57/39zznvO97yIcqLXVkSLFAuRSv90qxHV4pWsVOtsfjIcJoycfldE7ih8X6Vcm4PyKJ9ZBi
+u5CM1CAZ+gTSUx5SD429uks3lRSQTFauGKFGVTjFZk6K/i2S6GPgKBxdCynM4GcCXj9Kx6s7FIlu
+NQa7VMdK8sjEUZQQh8NBk6LvJxmWk2shpeBQIUtm8EP6Fh66rsbLyxQDHTQwcybhZIPhfn/Ja9E3
+2P94L25e+gUPulZj6EkRHl23ousch3sXdLhxKh0dLRQXmtS4GKTobdej/6zh8xGDeKAlEd2H/9q8
+WF75Bbb9OAs918ZgmzcLSxZm44d1FlR8qcf03HTkZqehtECJWwcz0PeX4ZxskIwHxJehWtTtXo6y
+shJ4v7fjShuHrzwT4Z4zASu/FjAlmyIvR4UlbhU2VqXj4SEO8WN8YtEiQtkNfnsz8LgG62pcKHMV
+wL/DhtPNHPLzsrB4vhXfzNfAoFegeHoa1i+l6NyXgehRHr1HBMSaDZPJcKzmTd+9Isx15cPtsuNU
+o4D6LRysViuWeTgsdCuhUhKMNSkwYawCrT9nIHxIQOSAkRlYmEG0QBRvGzFtmp2ljseaSiPKy3hk
+Wjks/UyDecVpMOgI5hUqUfEpxdU6TobDTaZEtZOoSTLEnXh+W4NVlVZkjhsHW6YAi1kP9ywNvNUU
++TlpUKsIsqwKzJ6qROdOHuGgGaH9lr/lJrIlcQ2xOXef1qJhqw7bv9NizwYtzvu06PTr8eu3Wmyu
+0mBzhRa11Tp01xlTMJ41mkfG6HAQmrhJGwbZksQ7KELtGkTa9Ii3GdDbyqHnII8HTTzuNxhxP2DC
+0z/MCO+3NDsnEV42SGmGndgGL6tPvujQYOBfHfrPGNB3koPYOtLt1JtDQZOcHA5azhbl0skMe/8/
+OHOI5cV53frn7YbIW/iwgGiqYY0MDppiDN5UbNfaWPn78LuanU/GxI8LlbGjgq+3xfhP+E/z75FG
+y4oFxTL4gQj5H4mn4DJwgItMAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b8c74d4a-37e7-48e7-9c36-261f15ee2c2b"
+		isrooted="True"
+		name="FormEdit1UltraEdit64Bit1"
+		refimgid="5c298057-9e57-4222-a741-6f1c88a4f508"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="31457883-5708-4286-98c6-d942a05df49c"
+			name="Find"
+			refimgid="6fad215d-a840-4377-867a-bbf12a539f8b"
+			robustPath=".//button[@accessiblename='Find']"
+			searchtimeout="30000ms">
+				/form[@processname='uedit64']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Home']/?/?/button[@accessiblename='Find']
+			</item>
+			<basepath>
+				/form[@processname='uedit64']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA1BJREFUOE9tk3tMk1cYxk9pe+iFft/Xi1WaoFEilUYR6ZBIJFhiZ8Kc
+XeZ0ZhEhaki8kCxxZiYm1t00GkU3DdI2YxaGETVGok4R56YTEi9RoiTeFS+90K8gCtWv/PG40w9i
+1Pgk57/39zznvO97yIcqLXVkSLFAuRSv90qxHV4pWsVOtsfjIcJoycfldE7ih8X6Vcm4PyKJ9ZBi
+u5CM1CAZ+gTSUx5SD429uks3lRSQTFauGKFGVTjFZk6K/i2S6GPgKBxdCynM4GcCXj9Kx6s7FIlu
+NQa7VMdK8sjEUZQQh8NBk6LvJxmWk2shpeBQIUtm8EP6Fh66rsbLyxQDHTQwcybhZIPhfn/Ja9E3
+2P94L25e+gUPulZj6EkRHl23ousch3sXdLhxKh0dLRQXmtS4GKTobdej/6zh8xGDeKAlEd2H/9q8
+WF75Bbb9OAs918ZgmzcLSxZm44d1FlR8qcf03HTkZqehtECJWwcz0PeX4ZxskIwHxJehWtTtXo6y
+shJ4v7fjShuHrzwT4Z4zASu/FjAlmyIvR4UlbhU2VqXj4SEO8WN8YtEiQtkNfnsz8LgG62pcKHMV
+wL/DhtPNHPLzsrB4vhXfzNfAoFegeHoa1i+l6NyXgehRHr1HBMSaDZPJcKzmTd+9Isx15cPtsuNU
+o4D6LRysViuWeTgsdCuhUhKMNSkwYawCrT9nIHxIQOSAkRlYmEG0QBRvGzFtmp2ljseaSiPKy3hk
+Wjks/UyDecVpMOgI5hUqUfEpxdU6TobDTaZEtZOoSTLEnXh+W4NVlVZkjhsHW6YAi1kP9ywNvNUU
++TlpUKsIsqwKzJ6qROdOHuGgGaH9lr/lJrIlcQ2xOXef1qJhqw7bv9NizwYtzvu06PTr8eu3Wmyu
+0mBzhRa11Tp01xlTMJ41mkfG6HAQmrhJGwbZksQ7KELtGkTa9Ii3GdDbyqHnII8HTTzuNxhxP2DC
+0z/MCO+3NDsnEV42SGmGndgGL6tPvujQYOBfHfrPGNB3koPYOtLt1JtDQZOcHA5azhbl0skMe/8/
+OHOI5cV53frn7YbIW/iwgGiqYY0MDppiDN5UbNfaWPn78LuanU/GxI8LlbGjgq+3xfhP+E/z75FG
+y4oFxTL4gQj5H4mn4DJwgItMAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

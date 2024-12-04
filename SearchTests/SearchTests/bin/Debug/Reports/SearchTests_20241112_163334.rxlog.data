@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="59.82s"
+		durationms="59822"
+		type="root"
+		rid="14f966ad9c5b1c84"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="12-11-2024 16:33:34"
+		timestampiso="2024-11-12T11:03:34"
+		endtime="12-11-2024 16:34:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="56.2s"
+			durationms="56199"
+			type="test-suite"
+			rid="a841458aeec5d2a"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="SearchTests"
+			headertext="SearchTests"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="56.17s"
+				durationms="56171"
+				type="test-case"
+				rid="13f6befa1506a369"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="FInd/Replace_History"
+				testcontainerid="e9048a95-82a6-4885-9174-1b80a6026067"
+				headertext="FInd/Replace_History"
+				displayName="FInd/Replace_History"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="535ms"
+					durationms="535"
+					type="setup-container"
+					rid="170218cc84d7698"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="516ms"
+						durationms="516"
+						type="test-module"
+						rid="860a8d4d9dd0cb"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="StartAUT"
+						displayName="StartAUT"
+						moduleid="03135a83-19e2-4d09-b9d2-f7b38373145a"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="StartAutProcessIDVar"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.044"
+							timeRelativeToTestModuleStartTime="00:00.008"
+							timeWallClock="16:33:37"
+							time="00:00.044"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$StartAutProcessIDVar = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.107"
+							timeRelativeToTestModuleStartTime="00:00.071"
+							timeWallClock="16:33:38"
+							time="00:00.107"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Program Files\IDM Computer Solutions\UltraEdit\uedit64.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\StartAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="51.55s"
+					durationms="51547"
+					type="test-module"
+					rid="107f0870c491df3a"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="OpenHexFindAndReplaceDialog"
+					displayName="OpenHexFindAndReplaceDialog"
+					moduleid="051f8864-e3e0-48b4-9990-d0c771210cbd"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.559"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="16:33:38"
+						time="00:00.559"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 5s to exist. Associated repository item: 'TrialPeriodExpiring.Close'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							itempath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Close"
+							id="7ef438aef5294063883fdefb341a6ef1"
+							timeout="5000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.309"
+						timeRelativeToTestModuleStartTime="00:04.753"
+						timeWallClock="16:33:43"
+						time="00:05.309"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'TrialPeriodExpiring.Close' at 9;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							itempath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Close"
+							id="7ef438aef5294063883fdefb341a6ef1"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.979"
+						timeRelativeToTestModuleStartTime="00:05.423"
+						timeWallClock="16:33:43"
+						time="00:05.979"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'UltraEdit64Bit.ApplicationMenu' at 28;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='UltraEdit 64-bit']/?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+							itempath="?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+							fullname="SearchTestsRepository.UltraEdit64Bit.ApplicationMenu"
+							id="1205d9377cd8455ea158ea37ce0476e2"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.413"
+						timeRelativeToTestModuleStartTime="00:37.857"
+						timeWallClock="16:34:16"
+						time="00:38.413"
+						level="Info"
+						category="User">
+						<message>
+							Item 'ApplicationMenu' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="90"
+							loglvl="Info"
+							itemindex="2">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.455"
+						timeRelativeToTestModuleStartTime="00:37.899"
+						timeWallClock="16:34:16"
+						time="00:38.455"
+						level="Warn"
+						category="Repository">
+						<message>
+							Failed to update the cached element for folder 'SearchTestsRepository.UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+						</message>
+						<metainfo
+							descendantPath="?/?/toolbar[@accessiblename=' ']/button[@accessiblename='Application menu']"
+							invertedPath="self::button[@accessiblename='Application menu']/parent::toolbar[@accessiblename=' ']/parent::?/parent::?/parent::*"
+							basePathToCachedFolder="/form[@title='UltraEdit 64-bit']"
+							invertedBasePath="self::form[@title='UltraEdit 64-bit']/parent::host/self::*"
+							AbsoluteBasePath="/form[@title='UltraEdit 64-bit']"
+							folderSearchTimeout="30s"
+							folderElementCandidates.Count="3"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="90"
+							loglvl="Warn"
+							itemindex="2">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.898"
+						timeRelativeToTestModuleStartTime="00:38.342"
+						timeWallClock="16:34:16"
+						time="00:38.898"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Uedit64.Open' at 59;20.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']"
+							itempath="?/?/toolbar[@accessiblename='']/menuitem[@accessiblename='Open']"
+							fullname="SearchTestsRepository.Uedit64.Open"
+							id="bfc7f68cc71742599f2ae43835d21ddc"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="93"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.829"
+						timeRelativeToTestModuleStartTime="00:39.273"
+						timeWallClock="16:34:17"
+						time="00:39.829"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.Text1148' at 233;3.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/?/?/text[@controlid='1148']"
+							itempath="?/?/text[@controlid='1148']"
+							fullname="SearchTestsRepository.Open.Text1148"
+							id="0d63aa9e8695472bb358415279c0cd2d"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="97"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.413"
+						timeRelativeToTestModuleStartTime="00:40.857"
+						timeWallClock="16:34:19"
+						time="00:41.413"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'C:\Users\bhavya.sm\Downloads\ue-20241025T061201Z-006 1\ue\encodingTestsBOM\langFile_ASCII_DOS.txt' with focus on 'Open.Text1148'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/?/?/text[@controlid='1148']"
+							itempath="?/?/text[@controlid='1148']"
+							fullname="SearchTestsRepository.Open.Text1148"
+							id="0d63aa9e8695472bb358415279c0cd2d"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="101"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:44.301"
+						timeRelativeToTestModuleStartTime="00:43.745"
+						timeWallClock="16:34:22"
+						time="00:44.301"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Open.ButtonOpen' at 40;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Open']/button[@text='&amp;Open']"
+							itempath="button[@text='&amp;Open']"
+							fullname="SearchTestsRepository.Open.ButtonOpen"
+							id="5d1bd53c188b4bb68c4d0754da2c1283"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="105"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:44.813"
+						timeRelativeToTestModuleStartTime="00:44.257"
+						timeWallClock="16:34:22"
+						time="00:44.813"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key 'Ctrl+H' Press with focus on 'FormCUsersBhavyaSmDownloadsUe202.Element59648'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'[C:\Users\bhavya.sm\Downl']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+							itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+							fullname="SearchTestsRepository.FormCUsersBhavyaSmDownloadsUe202.Element59648"
+							id="3ab3e610204f411888a071e07da8d412"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="109"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.392"
+						timeRelativeToTestModuleStartTime="00:48.836"
+						timeWallClock="16:34:27"
+						time="00:49.392"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FormCUsersBhavyaSmDownloadsUe202.Home' at 39;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'[C:\Users\bhavya.sm\Downl']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Home']"
+							itempath="?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Home']"
+							fullname="SearchTestsRepository.FormCUsersBhavyaSmDownloadsUe202.Home"
+							id="876b42b1a0b94b129c4407567fa3649f"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:50.660"
+						timeRelativeToTestModuleStartTime="00:50.104"
+						timeWallClock="16:34:28"
+						time="00:50.660"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Uedit64.Find' at 16;26.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/toolbar[@accessiblename='']/button[@accessiblename='Find']"
+							itempath="?/?/toolbar[@accessiblename='']/button[@accessiblename='Find']"
+							fullname="SearchTestsRepository.Uedit64.Find"
+							id="cfe8eb092f4248f9bc39bcea31d7034f"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.829"
+						timeRelativeToTestModuleStartTime="00:51.273"
+						timeWallClock="16:34:29"
+						time="00:51.829"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'HEXFindReplace'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']"
+							itempath="/form[@title='HEX Find/Replace']"
+							fullname="SearchTestsRepository.HEXFindReplace.Self"
+							id="b8f0144fd73a4ce3b89a4e2f0fc9955c"
+							timeout="30000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.959"
+						timeRelativeToTestModuleStartTime="00:51.403"
+						timeWallClock="16:34:29"
+						time="00:51.959"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Self' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']"
+							itempath="/form[@title='HEX Find/Replace']"
+							fullname="SearchTestsRepository.HEXFindReplace.Self"
+							id="b8f0144fd73a4ce3b89a4e2f0fc9955c"
+							timeout="30000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="123"
+							loglvl="Success"
+							itemindex="10">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="3.96s"
+					durationms="3959"
+					type="test-module"
+					rid="b83f1f2b50b0d16"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="FindTab"
+					displayName="FindTab"
+					moduleid="a8429e90-65c8-4d09-b48e-40467269e2aa"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Checked' of element for item 'SearchTestsRepository.HEXFindReplace.FindASCII' does not match the specified value (actual='False', expected='True').
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.106"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="16:34:30"
+						time="00:52.106"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>Text
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.153"
+						timeRelativeToTestModuleStartTime="00:00.049"
+						timeWallClock="16:34:30"
+						time="00:52.153"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Selected='True') on item 'HEXFindReplace.Find'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']/tabpage[@title='Find']"
+							itempath="?/?/tabpagelist[@controlid='1001']/tabpage[@title='Find']"
+							fullname="SearchTestsRepository.HEXFindReplace.Find"
+							id="eede8e6968504146884d0156e4960f7d"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs"
+							codeline="95"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.210"
+						timeRelativeToTestModuleStartTime="00:00.105"
+						timeWallClock="16:34:30"
+						time="00:52.210"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Selected' of element for item 'SearchTestsRepository.HEXFindReplace.Find' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']/tabpage[@title='Find']"
+							itempath="?/?/tabpagelist[@controlid='1001']/tabpage[@title='Find']"
+							fullname="SearchTestsRepository.HEXFindReplace.Find"
+							id="eede8e6968504146884d0156e4960f7d"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs"
+							codeline="96"
+							loglvl="Success"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.353"
+						timeRelativeToTestModuleStartTime="00:00.248"
+						timeWallClock="16:34:30"
+						time="00:52.353"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'HEXFindReplace.FindASCII' at 8;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							itempath=".//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							fullname="SearchTestsRepository.HEXFindReplace.FindASCII"
+							id="0cea3d8166324e8aa61e4c1bdea5cb18"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:52.814"
+						timeRelativeToTestModuleStartTime="00:00.710"
+						timeWallClock="16:34:30"
+						time="00:52.814"
+						level="Info"
+						category="Validation"
+						errimg="images_SearchTe_e3ca5202\SearchTe_e3ca5202_7c5988d8_trace.jpg"
+						errthumb="images_SearchTe_e3ca5202\SearchTe_e3ca5202_7c5988d8_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Checked='True') on item 'HEXFindReplace.FindASCII'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							itempath=".//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							fullname="SearchTestsRepository.HEXFindReplace.FindASCII"
+							id="0cea3d8166324e8aa61e4c1bdea5cb18"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs"
+							codeline="103"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:55.922"
+						timeRelativeToTestModuleStartTime="00:03.817"
+						timeWallClock="16:34:33"
+						time="00:55.922"
+						level="Failure"
+						category="Validation"
+						errimg="images_SearchTe_e3ca5202\SearchTe_e3ca5202_c54d2d90_trace.jpg"
+						errthumb="images_SearchTe_e3ca5202\SearchTe_e3ca5202_c54d2d90_trace_thumb.jpg">
+						<message>
+							Attribute 'Checked' of element for item 'SearchTestsRepository.HEXFindReplace.FindASCII' does not match the specified value (actual='False', expected='True').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							itempath=".//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							fullname="SearchTestsRepository.HEXFindReplace.FindASCII"
+							id="0cea3d8166324e8aa61e4c1bdea5cb18"
+							timeout="60000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs"
+							codeline="104"
+							loglvl="Failure"
+							itemindex="2">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:55.968"
+						timeRelativeToTestModuleStartTime="00:03.863"
+						timeWallClock="16:34:33"
+						time="00:55.968"
+						level="Error"
+						category="Module"
+						errimg="images_SearchTe_e3ca5202\SearchTe_e3ca5202_f1454ad6_trace.jpg"
+						errthumb="images_SearchTe_e3ca5202\SearchTe_e3ca5202_f1454ad6_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Checked' of element for item 'SearchTestsRepository.HEXFindReplace.FindASCII' does not match the specified value (actual='False', expected='True').
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at SearchTests.FindTab.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs:line 104
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTab.cs"
+							codeline="104"
+							type="repoitem"
+							path="/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							itempath=".//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+							fullname="SearchTestsRepository.HEXFindReplace.FindASCII"
+							id="0cea3d8166324e8aa61e4c1bdea5cb18"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="2">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="122ms"
+					durationms="122"
+					type="teardown-container"
+					rid="94fa05616fc19e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="121ms"
+						durationms="121"
+						type="test-module"
+						rid="4301076b5fef4b4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseAUT"
+						displayName="CloseAUT"
+						moduleid="457a1bd1-836f-41ff-8d5f-964e344185b3"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="CloseAutProcessIDVar"
+								value="19124">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:56.067"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="16:34:33"
+							time="00:56.067"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CloseAutProcessIDVar = '19124'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:56.099"
+							timeRelativeToTestModuleStartTime="00:00.034"
+							timeWallClock="16:34:34"
+							time="00:56.099"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\CloseAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

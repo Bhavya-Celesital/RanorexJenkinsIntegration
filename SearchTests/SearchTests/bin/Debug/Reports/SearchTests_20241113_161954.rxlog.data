@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.3s"
+		durationms="12300"
+		type="root"
+		rid="d841c82422ba13f"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="13-11-2024 16:19:54"
+		timestampiso="2024-11-13T10:49:54"
+		endtime="13-11-2024 16:20:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="6.21s"
+			durationms="6210"
+			type="test-suite"
+			rid="107ba32ac843b224"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="SearchTests"
+			headertext="SearchTests"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="6.16s"
+				durationms="6156"
+				type="test-case"
+				rid="e44d5055d47c7c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Find/Replace_RegularExpressionBuilder"
+				testcontainerid="8420b138-c017-4492-8331-17a5778d09d2"
+				headertext="Find/Replace_RegularExpressionBuilder"
+				displayName="Find/Replace_RegularExpressionBuilder"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="6.11s"
+					durationms="6106"
+					type="test-module"
+					rid="323a4ce1827e8256"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="OpenHexFindAndReplaceDialog"
+					displayName="OpenHexFindAndReplaceDialog"
+					moduleid="051f8864-e3e0-48b4-9990-d0c771210cbd"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to wait for item to exist.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.132"
+						timeRelativeToTestModuleStartTime="00:00.042"
+						timeWallClock="16:20:00"
+						time="00:00.132"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 5s to exist. Associated repository item: 'TrialPeriodExpiring.Close'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							itempath="form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Close"
+							id="7ef438aef5294063883fdefb341a6ef1"
+							timeout="5000"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.913"
+						timeRelativeToTestModuleStartTime="00:05.824"
+						timeWallClock="16:20:06"
+						time="00:05.913"
+						level="Info"
+						category="User"
+						errimg="images_SearchTe_bd1d51fc\SearchTe_bd1d51fc_f888081c_trace.jpg"
+						errthumb="images_SearchTe_bd1d51fc\SearchTe_bd1d51fc_f888081c_trace_thumb.jpg">
+						<message>
+							Item 'Close' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="83"
+							loglvl="Info"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.992"
+						timeRelativeToTestModuleStartTime="00:05.903"
+						timeWallClock="16:20:06"
+						time="00:05.992"
+						level="Info"
+						category="User"
+						errimg="images_SearchTe_bd1d51fc\SearchTe_bd1d51fc_46a0bbc8_trace.jpg"
+						errthumb="images_SearchTe_bd1d51fc\SearchTe_bd1d51fc_46a0bbc8_trace_thumb.jpg">
+						<message>
+							Backtrace:    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)<br/>   at Ranorex.Core.Repository.RepoItemInfo.&lt;&gt;c__DisplayClass81_0`1.&lt;Find&gt;b__0()<br/>   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)<br/>   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)<br/>   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+						</message>
+						<metainfo
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="83"
+							loglvl="Info"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.040"
+						timeRelativeToTestModuleStartTime="00:05.951"
+						timeWallClock="16:20:06"
+						time="00:06.040"
+						level="Error"
+						category="Module"
+						errimg="images_SearchTe_bd1d51fc\SearchTe_bd1d51fc_86d024d9_trace.jpg"
+						errthumb="images_SearchTe_bd1d51fc\SearchTe_bd1d51fc_86d024d9_trace_thumb.jpg">
+						<message>
+							Failed to wait for item to exist.<br/>Failed to find item 'SearchTestsRepository.TrialPeriodExpiring.Close'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']' at step 'button[@name='Close']' after 10 attempts within 5s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at SearchTests.OpenHexFindAndReplaceDialog.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\OpenHexFindAndReplaceDialog.cs"
+							codeline="83"
+							loglvl="Error"
+							id="7ef438aef5294063883fdefb341a6ef1"
+							path="/form[@title='Trial Period Expiring']/form[@name='Trial Period Expiring']/?/?/button[@name='Close']"
+							fullname="SearchTestsRepository.TrialPeriodExpiring.Close"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

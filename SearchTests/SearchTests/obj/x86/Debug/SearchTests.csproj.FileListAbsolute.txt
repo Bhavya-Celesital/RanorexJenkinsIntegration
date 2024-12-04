@@ -1,0 +1,12 @@
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\SearchTests.rxtmg
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\SearchTests.rxtst
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\SearchTests.exe.config
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\SearchTests.xml
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\SearchTests.exe
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\SearchTests.pdb
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\obj\x86\Debug\SearchTests.csproj.AssemblyReference.cache
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\obj\x86\Debug\SearchTests.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\obj\x86\Debug\SearchTests.csproj.CopyComplete
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\obj\x86\Debug\SearchTests.exe
+C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\obj\x86\Debug\SearchTests.pdb

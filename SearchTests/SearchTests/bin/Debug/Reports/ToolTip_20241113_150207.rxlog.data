@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.46s"
+		durationms="8456"
+		type="root"
+		rid="296163ddbd006901"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="13-11-2024 15:02:11"
+		timestampiso="2024-11-13T09:32:11"
+		endtime="13-11-2024 15:02:19"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ToolTip">
+		<detail>
+			ToolTip
+		</detail>
+		<errormessage>
+			Invalid RxPath './/text[@visible='True' or @accessibledescription!=''] | .//rawtext[@visible='True']'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.916"
+			timeRelativeToTestModuleStartTime="00:04.916"
+			timeWallClock="15:02:16"
+			time="00:04.916"
+			level="Info"
+			category="Validation"
+			errimg="images_ToolTip__80988f0f\ToolTip__80988f0f_59badd2a_trace.jpg"
+			errthumb="images_ToolTip__80988f0f\ToolTip__80988f0f_59badd2a_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'HEXFindReplace.TabPageList1001'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']"
+				itempath="?/?/tabpagelist[@controlid='1001']"
+				fullname="SearchTestsRepository.HEXFindReplace.TabPageList1001"
+				id="916c910de7b543c4b2d9ab60a55bfd06"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.838"
+			timeRelativeToTestModuleStartTime="00:06.838"
+			timeWallClock="15:02:18"
+			time="00:06.838"
+			level="Success"
+			category="Validation"
+			errimg="images_ToolTip__80988f0f\ToolTip__80988f0f_6ea29459_trace.jpg"
+			errthumb="images_ToolTip__80988f0f\ToolTip__80988f0f_6ea29459_trace_thumb.jpg">
+			<message>
+				Element for item 'TabPageList1001' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']"
+				itempath="?/?/tabpagelist[@controlid='1001']"
+				fullname="SearchTestsRepository.HEXFindReplace.TabPageList1001"
+				id="916c910de7b543c4b2d9ab60a55bfd06"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.339"
+			timeRelativeToTestModuleStartTime="00:08.339"
+			timeWallClock="15:02:19"
+			time="00:08.339"
+			level="Error"
+			category="Module"
+			errimg="images_ToolTip__80988f0f\ToolTip__80988f0f_7ad7e689_trace.jpg"
+			errthumb="images_ToolTip__80988f0f\ToolTip__80988f0f_7ad7e689_trace_thumb.jpg">
+			<message>
+				Invalid RxPath './/text[@visible='True' or @accessibledescription!=''] | .//rawtext[@visible='True']'.<br/>Invalid character at character position 54.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.RxPath.op_Implicit(String path)
+   at SearchTests.ToolTip.CaputureToolTip() in C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.UserCode.cs:line 47
+   at SearchTests.ToolTip.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.UserCode.cs"
+				codeline="47"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

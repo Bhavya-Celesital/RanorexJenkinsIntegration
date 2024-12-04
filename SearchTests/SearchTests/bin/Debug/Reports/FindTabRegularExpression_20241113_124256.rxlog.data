@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.88s"
+		durationms="12881"
+		type="root"
+		rid="119b7f379919554c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="13-11-2024 12:42:59"
+		timestampiso="2024-11-13T07:12:59"
+		endtime="13-11-2024 12:43:12"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FindTabRegularExpression">
+		<detail>
+			FindTabRegularExpression
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.217"
+			timeRelativeToTestModuleStartTime="00:04.217"
+			timeWallClock="12:43:04"
+			time="00:04.217"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>text, SingleCharacter
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.237"
+			timeRelativeToTestModuleStartTime="00:04.237"
+			timeWallClock="12:43:04"
+			time="00:04.237"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HEXFindReplace.Text1687' at 140;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.804"
+			timeRelativeToTestModuleStartTime="00:06.804"
+			timeWallClock="12:43:06"
+			time="00:06.804"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'test' with focus on 'HEXFindReplace.Text1687'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.970"
+			timeRelativeToTestModuleStartTime="00:06.970"
+			timeWallClock="12:43:06"
+			time="00:06.970"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.277"
+			timeRelativeToTestModuleStartTime="00:07.277"
+			timeWallClock="12:43:07"
+			time="00:07.277"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HEXFindReplace.FindASCII' at 6;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+				itempath=".//container[@class='#32770']/checkbox[@text='Find A&amp;SCII']"
+				fullname="SearchTestsRepository.HEXFindReplace.FindASCII"
+				id="0cea3d8166324e8aa61e4c1bdea5cb18"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="119"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.755"
+			timeRelativeToTestModuleStartTime="00:07.755"
+			timeWallClock="12:43:07"
+			time="00:07.755"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HEXFindReplace.RegularExpressionsASCIIOnly' at 6;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/checkbox[@text>'Regular &amp;expressions (ASCII']"
+				itempath=".//container[@class='#32770']/checkbox[@text>'Regular &amp;expressions (ASCII']"
+				fullname="SearchTestsRepository.HEXFindReplace.RegularExpressionsASCIIOnly"
+				id="4b858aacd22e4489a7a8e7ed643a8784"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="123"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.271"
+			timeRelativeToTestModuleStartTime="00:08.271"
+			timeWallClock="12:43:08"
+			time="00:08.271"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="127"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.579"
+			timeRelativeToTestModuleStartTime="00:08.579"
+			timeWallClock="12:43:08"
+			time="00:08.579"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HEXFindReplace.Button2' at 10;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@controlid='1693']"
+				itempath=".//container[@class='#32770']/button[@controlid='1693']"
+				fullname="SearchTestsRepository.HEXFindReplace.Button2"
+				id="5afacf8a060d486e88c9f9e99509a367"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="130"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.059"
+			timeRelativeToTestModuleStartTime="00:09.059"
+			timeWallClock="12:43:08"
+			time="00:09.059"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.MenuItemAnySingleCharacterExceptN' at 41;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename>'? Any single character (except']"
+				itempath="?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename>'? Any single character (except']"
+				fullname="SearchTestsRepository.Uedit64.MenuItemAnySingleCharacterExceptN"
+				id="6889c45bc20b49c88ce206b2f51399e5"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="134"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.703"
+			timeRelativeToTestModuleStartTime="00:09.703"
+			timeWallClock="12:43:09"
+			time="00:09.703"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='test?') on item 'HEXFindReplace.Text1687'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="138"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.861"
+			timeRelativeToTestModuleStartTime="00:09.861"
+			timeWallClock="12:43:09"
+			time="00:09.861"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'SearchTestsRepository.HEXFindReplace.Text1687' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="139"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.967"
+			timeRelativeToTestModuleStartTime="00:09.967"
+			timeWallClock="12:43:09"
+			time="00:09.967"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="142"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.969"
+			timeRelativeToTestModuleStartTime="00:10.969"
+			timeWallClock="12:43:10"
+			time="00:10.969"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HEXFindReplace.Button2' at 16;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/button[@controlid='1693']"
+				itempath=".//container[@class='#32770']/button[@controlid='1693']"
+				fullname="SearchTestsRepository.HEXFindReplace.Button2"
+				id="5afacf8a060d486e88c9f9e99509a367"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="145"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.438"
+			timeRelativeToTestModuleStartTime="00:11.438"
+			timeWallClock="12:43:11"
+			time="00:11.438"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Uedit64.MenuItemPlusPlusZeroOrMorePreceding' at 49;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename>'++ Zero or more preceding']"
+				itempath="?/?/toolbar[@accessiblename='Popup']/menuitem[@accessiblename>'++ Zero or more preceding']"
+				fullname="SearchTestsRepository.Uedit64.MenuItemPlusPlusZeroOrMorePreceding"
+				id="8a5436c8a25a46489776e92e23526791"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="149"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.462"
+			timeRelativeToTestModuleStartTime="00:12.462"
+			timeWallClock="12:43:12"
+			time="00:12.462"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='test?++') on item 'HEXFindReplace.Text1687'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="153"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.617"
+			timeRelativeToTestModuleStartTime="00:12.617"
+			timeWallClock="12:43:12"
+			time="00:12.617"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'SearchTestsRepository.HEXFindReplace.Text1687' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="154"
+				loglvl="Success"
+				itemindex="12">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.723"
+			timeRelativeToTestModuleStartTime="00:12.723"
+			timeWallClock="12:43:12"
+			time="00:12.723"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}{Akey}{LControlKey up}{Back}' with focus on 'HEXFindReplace.Text1687'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				itempath=".//container[@class='#32770']/text[@controlid='1687' and @processname='uedit64']"
+				fullname="SearchTestsRepository.HEXFindReplace.Text1687"
+				id="1bbab43b34f04a0d828e351835cdc78d"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\FindTabRegularExpression.cs"
+				codeline="157"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

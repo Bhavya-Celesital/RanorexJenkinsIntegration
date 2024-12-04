@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="21.09s"
+		durationms="21091"
+		type="root"
+		rid="20d7b595698f7e05"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="13-11-2024 15:06:12"
+		timestampiso="2024-11-13T09:36:12"
+		endtime="13-11-2024 15:06:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ToolTip">
+		<detail>
+			ToolTip
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.438"
+			timeRelativeToTestModuleStartTime="00:04.438"
+			timeWallClock="15:06:16"
+			time="00:04.438"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'HEXFindReplace.TabPageList1001'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']"
+				itempath="?/?/tabpagelist[@controlid='1001']"
+				fullname="SearchTestsRepository.HEXFindReplace.TabPageList1001"
+				id="916c910de7b543c4b2d9ab60a55bfd06"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.270"
+			timeRelativeToTestModuleStartTime="00:06.270"
+			timeWallClock="15:06:18"
+			time="00:06.270"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'TabPageList1001' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='HEX Find/Replace']/?/?/tabpagelist[@controlid='1001']"
+				itempath="?/?/tabpagelist[@controlid='1001']"
+				fullname="SearchTestsRepository.HEXFindReplace.TabPageList1001"
+				id="916c910de7b543c4b2d9ab60a55bfd06"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.084"
+			timeRelativeToTestModuleStartTime="00:21.084"
+			timeWallClock="15:06:33"
+			time="00:21.084"
+			level="Warn"
+			category="User">
+			<message>
+				Tooltip not found.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\ToolTip.UserCode.cs"
+				codeline="58"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

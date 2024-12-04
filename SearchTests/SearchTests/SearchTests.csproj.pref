@@ -1,0 +1,24 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording2.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="SearchTests.rxtst" />
+    <Element value="FindTabRegularExpression.rxrec" />
+    <Element value="FindTabRegularExpression.UserCode.cs" />
+    <Element value="Recording2.rxrec" />
+    <Element value="Recording2.UserCode.cs" />
+    <Element value="Recording3.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="SearchTests.Recording2.username()" />
+      <Element value="SearchTests.Recording2.username()" />
+      <Element value="SearchTests.FindTabRegularExpression.UserCodeMethod(Adapter argument1, String argument2)" />
+      <Element value="SearchTests.FindTabRegularExpression.GetTextRegularExpression(RepoItemInfo argument1)" />
+      <Element value="SearchTests.FindTabRegularExpression.UserCodeMethod1(RepoItemInfo argument1)" />
+      <Element value="SearchTests.ToolTip.CaputureToolTip()" />
+    </Array>
+  </Properties>
+</Properties>

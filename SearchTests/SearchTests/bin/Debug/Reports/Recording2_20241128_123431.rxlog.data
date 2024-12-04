@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.3m"
+		durationms="139569"
+		type="root"
+		rid="5d7b04eddfe5021"
+		totalerrorcount="0"
+		totalwarningcount="10"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="bhavya.sm"
+		rxversion="11.6.1.0"
+		host="CELSYSBLR000300"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="28-11-2024 12:34:35"
+		timestampiso="2024-11-28T07:04:35"
+		endtime="28-11-2024 12:36:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.016"
+			timeRelativeToTestModuleStartTime="00:04.016"
+			timeWallClock="12:34:39"
+			time="00:04.016"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>directory
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.045"
+			timeRelativeToTestModuleStartTime="00:04.045"
+			timeWallClock="12:34:39"
+			time="00:04.045"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEdit1UltraEdit64Bit.Element118' at 112;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form[@controlid='65280']//element[@controlid='118']"
+				itempath="container[@controlid='59648']/form[@controlid='65280']//element[@controlid='118']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Element118"
+				id="d228532e07294bf390da1f40913f4b5c"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="95"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.144"
+			timeRelativeToTestModuleStartTime="00:40.144"
+			timeWallClock="12:35:15"
+			time="00:40.144"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Element118' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="96"
+				loglvl="Info"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.147"
+			timeRelativeToTestModuleStartTime="00:40.147"
+			timeWallClock="12:35:15"
+			time="00:40.147"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@controlid='59648']/form[@controlid='65280']//element[@controlid='118']"
+				invertedPath="self::element[@controlid='118']/ancestor-or-self::form[@controlid='65280']/parent::container[@controlid='59648']/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.536"
+			timeRelativeToTestModuleStartTime="00:40.536"
+			timeWallClock="12:35:15"
+			time="00:40.536"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEdit1UltraEdit64Bit.Element59648' at 70;413.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Element59648"
+				id="56ff6c3e21d84b3494f16b905aed382e"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="99"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.174"
+			timeRelativeToTestModuleStartTime="01:14.174"
+			timeWallClock="12:35:49"
+			time="01:14.174"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Element59648' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="100"
+				loglvl="Info"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.175"
+			timeRelativeToTestModuleStartTime="01:14.175"
+			timeWallClock="12:35:49"
+			time="01:14.175"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				invertedPath="self::element[@controlid='59648']/parent::?/parent::?/parent::form[@controlid='65280']/parent::?/parent::?/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="3"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="100"
+				loglvl="Warn"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.547"
+			timeRelativeToTestModuleStartTime="01:14.547"
+			timeWallClock="12:35:49"
+			time="01:14.547"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEdit1UltraEdit64Bit.Element59648' at 65;481.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Element59648"
+				id="56ff6c3e21d84b3494f16b905aed382e"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="103"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.926"
+			timeRelativeToTestModuleStartTime="01:17.926"
+			timeWallClock="12:35:53"
+			time="01:17.926"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Element59648' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="104"
+				loglvl="Info"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.928"
+			timeRelativeToTestModuleStartTime="01:17.928"
+			timeWallClock="12:35:53"
+			time="01:17.928"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				invertedPath="self::element[@controlid='59648']/parent::?/parent::?/parent::form[@controlid='65280']/parent::?/parent::?/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="3"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="104"
+				loglvl="Warn"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.308"
+			timeRelativeToTestModuleStartTime="01:18.308"
+			timeWallClock="12:35:53"
+			time="01:18.308"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEdit1UltraEdit64Bit.Element59648' at 957;500.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Element59648"
+				id="56ff6c3e21d84b3494f16b905aed382e"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="107"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.491"
+			timeRelativeToTestModuleStartTime="01:21.491"
+			timeWallClock="12:35:56"
+			time="01:21.491"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Element59648' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="108"
+				loglvl="Info"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.491"
+			timeRelativeToTestModuleStartTime="01:21.491"
+			timeWallClock="12:35:56"
+			time="01:21.491"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				invertedPath="self::element[@controlid='59648']/parent::?/parent::?/parent::form[@controlid='65280']/parent::?/parent::?/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="3"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="108"
+				loglvl="Warn"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.881"
+			timeRelativeToTestModuleStartTime="01:21.881"
+			timeWallClock="12:35:57"
+			time="01:21.881"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEdit1UltraEdit64Bit.Text1001' at 88;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				itempath="container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Text1001"
+				id="e4bf478759f74127a75d8990629a93fb"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="111"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.424"
+			timeRelativeToTestModuleStartTime="01:59.424"
+			timeWallClock="12:36:34"
+			time="01:59.424"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Text1001' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="112"
+				loglvl="Info"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.425"
+			timeRelativeToTestModuleStartTime="01:59.425"
+			timeWallClock="12:36:34"
+			time="01:59.425"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				invertedPath="self::text[@controlid='1001']/parent::combobox[@controlid='113']/ancestor-or-self::form[@controlid='65280']/parent::container[@controlid='59648']/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="112"
+				loglvl="Warn"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.807"
+			timeRelativeToTestModuleStartTime="01:59.807"
+			timeWallClock="12:36:35"
+			time="01:59.807"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}' with focus on 'FormEdit1UltraEdit64Bit.Text1001'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				itempath="container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Text1001"
+				id="e4bf478759f74127a75d8990629a93fb"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="115"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:05.665"
+			timeRelativeToTestModuleStartTime="02:05.665"
+			timeWallClock="12:36:41"
+			time="02:05.665"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Text1001' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="116"
+				loglvl="Info"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:05.665"
+			timeRelativeToTestModuleStartTime="02:05.665"
+			timeWallClock="12:36:41"
+			time="02:05.665"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				invertedPath="self::text[@controlid='1001']/parent::combobox[@controlid='113']/ancestor-or-self::form[@controlid='65280']/parent::container[@controlid='59648']/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="116"
+				loglvl="Warn"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:05.675"
+			timeRelativeToTestModuleStartTime="02:05.675"
+			timeWallClock="12:36:41"
+			time="02:05.675"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey up}' with focus on 'FormEdit1UltraEdit64Bit.Text1001'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				itempath="container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Text1001"
+				id="e4bf478759f74127a75d8990629a93fb"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="119"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.689"
+			timeRelativeToTestModuleStartTime="02:11.689"
+			timeWallClock="12:36:47"
+			time="02:11.689"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Text1001' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="120"
+				loglvl="Info"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.689"
+			timeRelativeToTestModuleStartTime="02:11.689"
+			timeWallClock="12:36:47"
+			time="02:11.689"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="container[@controlid='59648']/form[@controlid='65280']//combobox[@controlid='113']/text[@controlid='1001']"
+				invertedPath="self::text[@controlid='1001']/parent::combobox[@controlid='113']/ancestor-or-self::form[@controlid='65280']/parent::container[@controlid='59648']/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="120"
+				loglvl="Warn"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.692"
+			timeRelativeToTestModuleStartTime="02:11.692"
+			timeWallClock="12:36:47"
+			time="02:11.692"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FormEdit1UltraEdit64Bit.Element59648' at 855;385.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Element59648"
+				id="56ff6c3e21d84b3494f16b905aed382e"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="123"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:15.887"
+			timeRelativeToTestModuleStartTime="02:15.887"
+			timeWallClock="12:36:51"
+			time="02:15.887"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Element59648' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="124"
+				loglvl="Info"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:15.888"
+			timeRelativeToTestModuleStartTime="02:15.888"
+			timeWallClock="12:36:51"
+			time="02:15.888"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				invertedPath="self::element[@controlid='59648']/parent::?/parent::?/parent::form[@controlid='65280']/parent::?/parent::?/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="3"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="124"
+				loglvl="Warn"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:16.271"
+			timeRelativeToTestModuleStartTime="02:16.271"
+			timeWallClock="12:36:51"
+			time="02:16.271"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+F' Press with focus on 'FormEdit1UltraEdit64Bit.Element59648'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'[Edit1] - UltraEdit 64-bi']/?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				itempath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				fullname="SearchTestsRepository.FormEdit1UltraEdit64Bit.Element59648"
+				id="56ff6c3e21d84b3494f16b905aed382e"
+				timeout="60000"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="127"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:19.541"
+			timeRelativeToTestModuleStartTime="02:19.541"
+			timeWallClock="12:36:54"
+			time="02:19.541"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Element59648' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="128"
+				loglvl="Info"
+				itemindex="10">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:19.541"
+			timeRelativeToTestModuleStartTime="02:19.541"
+			timeWallClock="12:36:54"
+			time="02:19.541"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'SearchTestsRepository.FormEdit1UltraEdit64Bit'. In order to analyze this issue, please contact support at https://www.ranorex.com/support-query/ with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="?/?/form[@controlid='65280']/?/?/element[@controlid='59648']"
+				invertedPath="self::element[@controlid='59648']/parent::?/parent::?/parent::form[@controlid='65280']/parent::?/parent::?/parent::*"
+				basePathToCachedFolder="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				invertedBasePath="self::form[@title>'[Edit1] - UltraEdit 64-bi']/parent::host/self::*"
+				AbsoluteBasePath="/form[@title>'[Edit1] - UltraEdit 64-bi']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="3"
+				codefile="C:\Users\bhavya.sm\Documents\Ranorex\RanorexStudio Projects\SearchTests\SearchTests\Recording2.cs"
+				codeline="128"
+				loglvl="Warn"
+				itemindex="10">
+			</metainfo>
+		</item>
+	</activity>
+</report>
